@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const modes_buttons = document.querySelectorAll(".settings .modes button");
 
   function updateStyle() {
-    const mode = localStorage.getItem("mode") || "light";
+    const mode = localStorage.getItem("mode") || "dark";
     changeMode(mode);
   }
   function changeMode(value) {
